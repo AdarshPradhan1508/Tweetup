@@ -14,6 +14,10 @@
 
 /* hello hello its the carousal style */
 
+.crsl-text
+{
+    color:black;
+}
 #testimonials{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -132,6 +136,7 @@ padding-left: 80px;
     object-position: center;
 
 
+
 }
 
 /*.problems-img p{
@@ -144,12 +149,14 @@ padding-left: 80px;
 }    */
 
 .problems-img img {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
     border-radius: 80%;
     object-position: center;
-    margin-left: 60px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+   
 }
 
 /* .problems-name {} */
@@ -221,7 +228,7 @@ padding-left: 80px;
 .nav
 {
     text-decoration: none;
-    color:#044e46;
+    color:#2ec8b9;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -242,4 +249,8 @@ padding-left: 80px;
 .text-center
 {
     color: black;
+}
+.nv
+{
+    background-color: black;
 }

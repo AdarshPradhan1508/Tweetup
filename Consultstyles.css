@@ -31,9 +31,16 @@ body
     margin-bottom: 20px;
 }
 .content{
-    margin-top: 80px ;
+    margin-top: 4px ;
     text-align: center;
- 
+    font-family: 'Ubuntu',sans-serif;
+ font-weight: 700;
+font
+
+}
+.row
+{
+    margin-bottom: 30px;
 }
 
 .logos{
