@@ -81,7 +81,7 @@ line-height: 150%;
     height: 120px;
     width: 120px;
     border-radius: 50%;
-   
+   align-items: center;
   
 }
 .featurebox
@@ -90,7 +90,15 @@ line-height: 150%;
 }
 #icons
 {
-    margin-top:50px
+    margin-top:50px;
+    padding-left: 550px;
+ma
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 @media only screen and (max-width: 768px){
@@ -165,13 +173,13 @@ text-align: center;
 }
 .word
 {
-    color: rgb(182, 11, 34);
+    color:#fff;
     font-family: 'ubuntu','sans-serif';
 }
 .word1
 {
     font-family: 'ubuntu','sans-serif';
-   color: rgb(139, 14, 50);
+   color: #ffff;
 }
 .testsug
 {
@@ -181,3 +189,12 @@ text-align: center;
     margin-top:15px;
     margin-bottom: 10px;
 }
+
+.pebble
+ {
+    width: 60%;
+    height: 20%;
+    border-radius: 10px;
+    margin: 20px;
+ }
+ .pebble 
